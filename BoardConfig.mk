@@ -113,3 +113,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # Ril
 BOARD_RIL_CLASS := ../../../device/samsung/lt03lte/ril
+
+#SE Linux
+BOARD_KERNEL_CMDLINE += selinux.enforcing=0
